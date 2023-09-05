@@ -39,7 +39,7 @@ setup(
     package_dir={'facelib': 'facelib'},
     keywords='face,recognition,detection,tensorflow,lite,keras,loss,layer,edgetpu',
     packages=find_packages(),
-    python_requires='>=3.5, <3.9',
+    python_requires='>=3.5, <=3.12',
     install_requires=[
         'opencv-python',
         'numpy',
